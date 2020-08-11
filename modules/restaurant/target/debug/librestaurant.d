@@ -1,0 +1,1 @@
+C:\projects\rust\modules\restaurant\target\debug\librestaurant.rlib: C:\projects\rust\modules\restaurant\src\back_of_house.rs C:\projects\rust\modules\restaurant\src\front_of_house.rs C:\projects\rust\modules\restaurant\src\lib.rs
