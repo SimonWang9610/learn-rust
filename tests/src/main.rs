@@ -1,10 +1,12 @@
+use std::fmt;
 use std::sync::mpsc::{self, Receiver, Sender};
 use std::sync::{Arc, Mutex};
 use std::thread;
 use std::time::{Duration, SystemTime};
 
 fn main() {
-    let v = Arc::new(Mutex::new(Vec::with_capacity(10)));
+
+    /* let v = Arc::new(Mutex::new(Vec::with_capacity(10)));
     let (sender, receiver): (Sender<_>, Receiver<_>) = mpsc::channel();
     let receiver = Arc::new(Mutex::new(receiver));
     let mut handles = vec![];
@@ -39,7 +41,7 @@ fn main() {
     for handle in handles {
         handle.join().unwrap();
     }
-    println!("{:?}", v);
+    println!("{:?}", v); */
 }
 
 //Situation 1:

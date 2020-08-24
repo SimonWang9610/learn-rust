@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hello wasm</title>
+    </head>
+    <body>
+        <script>
+            const wasm = import("../pkg/hello_wasm.js");
+            wasm.greet("WebAssembly");
+        </script>
+    </body>
+</html>
